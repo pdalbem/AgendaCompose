@@ -8,3 +8,7 @@ Projeto desenvolvido para a disciplina Persistência de Dados (PDD) do curso de 
 As funcionalidades do aplicativo são:
 
 ![use_cases](https://github.com/user-attachments/assets/d8d44de9-afc5-4065-8c9c-d772b0626935)
+
+
+O AgendaCompose foi desenvolvido utilizando-se o [Guia de Arquitetura](https://developer.android.com/topic/architecture) recomendado pelo Google Developers:
+<img src="https://developer.android.com/static/topic/libraries/architecture/images/mad-arch-overview.png?hl=pt-br" width=300 height=200/>
