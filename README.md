@@ -11,4 +11,5 @@ As funcionalidades do aplicativo são:
 
 
 O AgendaCompose foi desenvolvido utilizando-se o [Guia de Arquitetura](https://developer.android.com/topic/architecture) recomendado pelo Google Developers:
+
 <img src="https://developer.android.com/static/topic/libraries/architecture/images/mad-arch-overview.png?hl=pt-br" width=300 height=200/>
