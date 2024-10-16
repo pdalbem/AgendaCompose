@@ -70,6 +70,7 @@ class ContactDetailViewModel @Inject constructor(
         _contactDetails.value?.let {
             _contactDetails.value = it.copy(name = name, phone = phone, email = email)
         }
+        _stateDetail.value = ContactDetailUIState.UpdateSuccess
     }
 
 }
