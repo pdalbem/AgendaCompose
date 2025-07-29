@@ -15,8 +15,8 @@ import javax.inject.Inject
 sealed class ContactsListUiState {
     data class Success(val contacts: List<Contact>) : ContactsListUiState()
     data class Search(val contacts: List<Contact>) : ContactsListUiState()
-    object Empty : ContactsListUiState()
-    object Loading : ContactsListUiState()
+    data object Empty : ContactsListUiState()
+    data object Loading : ContactsListUiState()
 }
 
 @HiltViewModel
